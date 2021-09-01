@@ -3,7 +3,7 @@
 These scripts are for my third rotation project where I classified the Aedes aegypti microbiota using whole genome sequences. The premise behind this project was to use the unaligned reads for read classification. To run the analyses, clone the the scripts located in the scripts folder. Run the 'create folders' script. This will create three folders - "Working" "Results" "Data". From the working folder, run all the required scripts in the desired order to re-run the analysis pipeline.
 
 To re-perform the analyses the following steps must be taken
-1. Load the scripts into your working directory
+1. Load the scripts into your working directory: git clone https://github.com/aidanfoo96/aa_read_classification_from_WGS.git 
 2. run the create_folders command to create the neccessary folders for analyses. This command will create three folders; data, results and working. The working directory is where you want to be for all the subsequent analysis steps. 
 3. Download the desired paried WGS for Aedes aegypti from the ENA browser website for which you want to classify the microbiota
 4. Download the desired reference to map the reads against. I would recommend the recent Aedes aegypti reference genome from Vectorbase located here: https://vectorbase.org/vectorbase/app/record/dataset/TMPTX_aaegLVP_AGWG
